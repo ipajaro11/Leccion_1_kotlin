@@ -24,7 +24,7 @@ fun main (){
     //val i1: Int = b2
     //val i2: String =b2
     //val i3: Double = b2
-    //Estas tres lineas de codigo arriba escritas tienen un error porque se desea imprmirlas en un cierto tipo de variable cuando el original es de tipo Byte
+    //Estas tres líneas de código arriba escritas tienen un error porque se desea imprmirlas en un cierto tipo de variable cuando el original es de tipo Byte
 
     //para evitar esos errores se hace un casting de la siguiente manera
 
@@ -44,4 +44,5 @@ fun main (){
     println(socialSecurityNumber)
     println(hexBytes)
     println(bytes)
+
 }
