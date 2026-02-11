@@ -7,6 +7,6 @@ fun main (){
 
     val mylist = mutableListOf("tuna", "salmon", "shark")
     mylist.remove("shark")
-
+    println(mylist)
 
 }
