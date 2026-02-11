@@ -45,4 +45,13 @@ fun main (){
     println(hexBytes)
     println(bytes)
 
+    var fish: Int = 1
+    var lakes: Double = 2.5
+
+    val numberOfFish = 5
+    val numberOfPlants = 12
+    println("I have $numberOfFish" + " and $numberOfPlants")
+    println("I have ${numberOfFish + numberOfPlants} fish and plants")
+
+
 }
