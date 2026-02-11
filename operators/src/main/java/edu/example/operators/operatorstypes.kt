@@ -1,6 +1,7 @@
 package edu.example.operators
 
 fun main (){
+    //Explore numeric operators
     println(1+1)
     println(53-3)
     println(50/10)
@@ -15,6 +16,8 @@ fun main (){
     println(3.5.plus(4))
     println(2.4.div(2))
 
+
+    //Type of variables
     val i: Int =6
     val b1 = i.toByte()
     println(b1)
@@ -45,13 +48,17 @@ fun main (){
     println(hexBytes)
     println(bytes)
 
+    //Learn the value of variable types
+    var fish1 = 1
+    fish1 = 2
+    val aquarium = 1
+    //aquarium = 2   no se puede modificar el valor de un val
     var fish: Int = 1
     var lakes: Double = 2.5
 
+    //learn about strings and characters
     val numberOfFish = 5
     val numberOfPlants = 12
     println("I have $numberOfFish" + " and $numberOfPlants")
     println("I have ${numberOfFish + numberOfPlants} fish and plants")
-
-
 }
