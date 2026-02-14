@@ -12,7 +12,7 @@ fun main (){
     val school1 = arrayOf("shark", "salmon", "minnow")
     println(java.util.Arrays.toString(school1))
 
-    val mix = arrayOf("fish", 2)  //Aqui no se imprime los valores como dice en el curso de kotlin
+    val mix = arrayOf("fish", 2)  //Aqui no se imprime los valores de enteros, da la ubicaion de memoria
     println(mix)
 
     val numbers = intArrayOf(1,2,3)
@@ -34,7 +34,7 @@ fun main (){
 
     val school2 = arrayOf("shark", "salmon", "minnow")
     for (element in school2) {
-        print(element + " ")
+        print(element)
     }
 
     for ((index, element) in school2.withIndex()) {
