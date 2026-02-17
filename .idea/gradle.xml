@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Leccion2Funciones" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/operators" />
           </set>
