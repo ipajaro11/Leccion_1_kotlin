@@ -16,6 +16,7 @@ fun main () {
         return operation(dirty)
     }
 
+/*
     fun increaseDirty( start: Int ) = start + 1
 
 
@@ -28,3 +29,32 @@ fun main () {
         dirtyLevel = updateDirty(dirtyLevel) { dirtyLevel -> dirtyLevel + 23}
         println(dirtyLevel)
     }
+
+ */
+
+/*fun calcularArea (base : Int, altura : Int): Int {
+    val area = base*altura
+    return area
+}
+
+fun main (){
+    val base = 5
+    val altura =8
+    val area = calcularArea(base, altura)
+    println(area)
+}
+
+ */
+
+
+//preguntas de cuestionario
+fun costo(precio: Double, impuesto: Double = 0.16): Double {
+    return precio * (1 + impuesto)
+}
+
+fun main() {
+    val precio: Double = 100.0
+    val impuesto: Double = 0.08
+    println(costo (precio))
+    println(costo(precio, impuesto))
+}
